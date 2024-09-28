@@ -15,7 +15,7 @@ st.header('Welcome to ML Application')
 
 
 #### -- Load DataFrame 
-df=pd.read_csv(r'C\Users\dell\Desktop\Python\week8\Salary.csv')
+df=pd.read_csv(r'Salary.csv')
 df=df.dropna()
 st.dataframe(df) # show Dataframe on app
 
@@ -110,7 +110,7 @@ st.plotly_chart(barchart)
 st.header('Modelling with Logistic Regression')
 st.subheader('Diabetes Dataset')
 
-diabetes=pd.read_csv(r"C:\Users\dell\Desktop\Python\week8\diabetes.csv")
+diabetes=pd.read_csv(r"diabetes.csv")
 st.dataframe(diabetes)
 
 # Splitting 
