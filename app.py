@@ -15,7 +15,7 @@ st.header('Welcome to ML Application')
 
 
 #### -- Load DataFrame 
-df=pd.read_csv(r'C:/Users/dell/Desktop/Python/week8/Salary.csv')
+df=pd.read_csv(r'C\Users\dell\Desktop\Python\week8\Salary.csv')
 df=df.dropna()
 st.dataframe(df) # show Dataframe on app
 
